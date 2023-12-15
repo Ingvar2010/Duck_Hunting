@@ -522,7 +522,7 @@ scene.setBackgroundImage(img`
     9999997779999999999999999977779999999999999999999999999777999999999999999999999999999777999999999999999999999999977779999999999999999999999777999999999999999999
     `)
 game.setGameOverScoringType(game.ScoringType.HighScore)
-info.startCountdown(10)
+info.startCountdown(180)
 game.onUpdateInterval(500, function () {
     if (info.score() < 99) {
         bogey = sprites.create(img`
